@@ -21,6 +21,9 @@ module.exports = `
                     status
                     template
                     format
+                    title
+                    date
+
                 }
             }
         }
