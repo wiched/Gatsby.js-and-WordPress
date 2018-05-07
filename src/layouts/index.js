@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header.js'
+import Header from '../components/Header/Header'
 import './index.css'
 
-import MainMenu from '../components/Menu/MainMenu.js'
+import MainMenu from '../components/menu/MainMenu'
 
 const TemplateWrapper = ({ children, data }) => (
   <div>
